@@ -1,0 +1,54 @@
+main {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1800px;
+    padding-top: 100px;
+}
+.main__info {
+    width: 100%;
+    max-width: 570px;
+}
+
+main p {
+    font-size: 21px;
+    color: white;
+    margin: 20px 0 28px;
+    opacity: 0.7;
+    text-align: left;
+    
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+
+
+}
+
+.main__info div button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-15deg);
+  }
+
+  .main__info div button {
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+
+  }
+
+
